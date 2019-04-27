@@ -1,28 +1,7 @@
-== README
+== RECIPE HUNTER Rails Application
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Simple application to search for recipes
 
-Things you may want to cover:
+Uses [FOOD2FORK API](https://www.food2fork.com/user/api)
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+Don't forget `export FOOD2FORK_KEY="you_key"`

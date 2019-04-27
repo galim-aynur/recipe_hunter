@@ -1,5 +1,8 @@
 <h1>Searching for - <%= @search_term %></h1>
-
+<form method="get">
+    <input type="text" name="search">
+    <button type="Submit">Search</button>
+</form>
 <% if @recipes.nil? or @recipes == [] %>
 
 <p><h2>No recipes found... Sorry</h2></p>
